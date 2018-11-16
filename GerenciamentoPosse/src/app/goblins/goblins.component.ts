@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-goblins',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GoblinsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private location: Location, /*private dataService: DataService*/) { }
 
   ngOnInit() {
   }
 
+  getOrdem() {
+
+  }
+
+
+
+  voltar() {
+    this.location.back();
+  }
 }
