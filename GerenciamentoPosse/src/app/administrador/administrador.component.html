@@ -1,0 +1,67 @@
+<!--<p>
+  administrador works!
+</p>-->
+<div id="background" class="row">
+  <div class="col-sm-12" style="height:570px;">
+    <div class="row">
+      <div class="col-sm-4" style="width:90px"></div>
+      <div class="col-sm-4" style="height:570px;">
+        <div id="userBackground">
+          <form action="/action_page.php">
+              <div class="form-group" id="campoSenha">
+                <label for="grupo"><b>Grupo que você gostaria dar a ordem:</b></label>
+              <select class="form-control" id="grupo">
+                <option selected="selected"></option>
+                <option value="goblins">goblins</option>
+                <option value="uruk-hais">uruk-hais</option>
+                <option value="snagas">snagas</option>
+                <option value="orcs">orcs</option>
+              </select>
+              </div>
+              <div class="form-group" id="campoSenha">
+                <label for="regiao"><b>De qual Região:</b></label>
+              <select class="form-control" id="regiao">
+                <option selected="selected"></option>
+                <option value="Orthanc">Orthanc</option>
+                <option value="Isengard">Isengard</option>
+                <option value="Rohan">Rohan</option>
+              </select>
+              </div>
+            <div class="form-check" id="ordemRealizadaGroup">
+              <label for="usuario"><b>Ação a ser tomada:</b></label>
+                <label class="form-check-label" id="realizada">
+                  <input type="checkbox" class="form-check-input" value="1"><b>Atacar</b>  								</label>
+                <label class="form-check-label" id="realizada">
+                  <input type="checkbox" class="form-check-input" value="1"><b>Esperar</b>  								</label>
+                <label class="form-check-label" id="realizada">
+                  <input type="checkbox" class="form-check-input" value="1"><b>Recuar</b>  								</label>
+            </div>
+              <div class="form-group" id="campoSenha">
+                <label for="grupo"><b>Para qual grupo deseja enviar:</b></label>
+              <select class="form-control" id="grupo">
+                <option selected="selected"></option>
+                <option value="goblins">goblins</option>
+                <option value="uruk-hais">uruk-hais</option>
+                <option value="snagas">snagas</option>
+              </select>
+              </div>
+              <div class="form-group" id="campoSenha">
+                <label for="regiao"><b>Para qual Região:</b></label>
+              <select class="form-control" id="regiao">
+                <option selected="selected"></option>
+                <option value="Orthanc">Orthanc</option>
+                <option value="Isengard">Isengard</option>
+                <option value="Rohan">Rohan</option>
+              </select>
+              </div>
+            <div class="form-group" id="btnGroup">
+                <button type="submit" class="btn btn-dark" id="btnSalvar">Enviar Ordem</button>
+              <button type="submit" class="btn btn-dark" id="btnCadastrar">Voltar</button>
+            </div>
+          </form>					
+        </div>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+  </div>
+</div>

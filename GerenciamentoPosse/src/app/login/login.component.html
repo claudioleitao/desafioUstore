@@ -1,0 +1,30 @@
+<!--<p>
+  login works!
+</p>-->
+<div id="background" class="row">
+  <div class="col-sm-12" style="height:570px;">
+    <div class="row">
+      <div class="col-sm-4" style="width:90px"></div>
+      <div class="col-sm-4" style="height:570px;">
+        <div id="userBackground">
+          <div><label id="titulo"><b> ENTRAR </b></label></div>
+          <form>
+              <div class="form-group" id="campoUsuario">
+                <label for="usuario"><b>Usuário:</b></label>
+                <input (ngModel)="usuario" type="text" class="form-control" id="usuario">
+              </div>
+              <div class="form-group" id="campoSenha">
+                <label for="senha"><b>Senha:</b></label>
+                <input (ngModel)="senha" type="password" class="form-control" id="senha">
+              </div>
+            <div class="form-group" id="btnGroup">
+                <button (click)="entrar()" class="btn btn-dark" id="btnEntrar">Entrar</button>
+                <button (click)="cadastrar()" class="btn btn-dark" id="btnCadastrar">Cadastrar</button>
+            </div>
+          </form>					
+        </div>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+  </div>
+</div>
