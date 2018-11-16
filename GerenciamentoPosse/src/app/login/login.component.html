@@ -11,11 +11,11 @@
           <form>
               <div class="form-group" id="campoUsuario">
                 <label for="usuario"><b>Usuário:</b></label>
-                <input  required (ngModel)="userName" type="text" class="form-control" id="usuario">
+                <input (ngModel)="userName" type="text" class="form-control" id="usuario">
               </div>
               <div class="form-group" id="campoSenha">
                 <label for="senha"><b>Senha:</b></label>
-                <input required (ngModel)="password" type="password" class="form-control" id="senha">
+                <input (ngModel)="password" type="password" class="form-control" id="senha">
               </div>
             <div class="form-group" id="btnGroup">
                 <button (click)="entrar()" class="btn btn-dark" id="btnEntrar">Entrar</button>
