@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Gerenciamento de Posses - Orcs</title>
+<link href="css/orc.css" rel="stylesheet" type="text/css" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div id="background" class="row">
+		<div class="col-sm-12" style="height:570px;">
+			<div class="row">
+				<div class="col-sm-4" style="width:90px"></div>
+				<div class="col-sm-4" style="height:570px;">
+					<div id="userBackground">
+						<form action="/action_page.php">
+  							<div class="form-group" id="campoUsuario">
+    							<label for="usuario"><b>Ordem:</b></label>
+    							<p>
+									Orcs preciso que vocês se unam com o grupo dos goblins para um ataque surpresa.
+								</p>
+  							</div>
+  							<div class="form-group" id="campoSenha">
+    							<label for="grupo"><b>Grupos:</b></label>
+								<select class="form-control" id="grupo">
+									<option selected="selected"></option>
+									<option value="goblins">goblins</option>
+									<option value="uruk-hais">uruk-hais</option>
+									<option value="snagas">snagas</option>
+									<option value="orcs">orcs</option>
+								</select>
+  							</div>
+  							<div class="form-group" id="campoSenha">
+    							<label for="regiao"><b>Região:</b></label>
+								<select class="form-control" id="regiao">
+									<option selected="selected"></option>
+									<option value="Orthanc">Orthanc</option>
+									<option value="Isengard">Isengard</option>
+									<option value="Rohan">Rohan</option>
+								</select>
+  							</div>
+							<div class="form-check" id="ordemRealizadaGroup">
+								<label for="usuario"><b>A Ordem:</b></label>
+  								<label class="form-check-label" id="realizada">
+    								<input type="checkbox" class="form-check-input" value="1"><b>Realizada</b>
+  								</label>
+							</div>
+							<div class="form-group" id="btnGroup">
+  								<button type="submit" class="btn btn-dark" id="btnSalvar">Salvar</button>
+								<button type="submit" class="btn btn-dark" id="btnCadastrar">Voltar</button>
+							</div>
+						</form>					
+					</div>
+				</div>
+				<div class="col-sm-4"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

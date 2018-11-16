@@ -1,0 +1,47 @@
+/* CSS Document */
+#background {
+	background-image:url(../images/o-senhor-dos-aneis-tablet.jpg);
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+}
+
+
+#userBackground {
+	background-image:url(../images/pergaminho2.jpg);
+	height:569px;
+	width:500px;
+	/*margin-top:25%;*/
+}
+
+#campoUsuario {
+	padding-top:30px;
+}
+
+#campoUsuario, #campoSenha {
+	width:500px;
+	padding-left:45px;
+}
+
+#nome, #grupo, #regiao, #usuario, #senha {
+	width:85%;
+	border:solid #000000 1px;
+}
+
+#btnGroup {
+	padding-left:27%;
+	padding-top:15px;
+}
+
+#btnCadastrar {
+	margin-left:40px;
+}
+
+#ordemRealizadaGroup {
+	padding-left: 40px;
+}
+
+#realizada {
+	position:relative;
+	padding-left:30px;
+}
